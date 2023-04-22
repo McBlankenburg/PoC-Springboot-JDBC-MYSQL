@@ -26,3 +26,9 @@ in project path open terminal
 mvn clean install
 mvn spring-boot:run
 ```
+
+### Postman
+as soon as the tomcat server is up, we can fire queries to our application
+
+GET localhost:8080/api/users
+POST localhost:8080/api/users?firstName=Jan&lastName=Kowalski
