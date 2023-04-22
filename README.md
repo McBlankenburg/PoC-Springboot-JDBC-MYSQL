@@ -6,7 +6,7 @@ project created to show how JDBC works in the context of the Spring Boot applica
 
 ## Getting Started
 
-### DataBase in docker
+### Database in Docker
 
 Run docker container with mysql database
 ```
