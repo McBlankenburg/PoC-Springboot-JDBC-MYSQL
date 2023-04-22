@@ -18,6 +18,8 @@ or same as up but with Volume
 ```
 docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=mydb -v /path/to/your/sql/files:/docker-entrypoint-initdb.d -p 3306:3306 -d mysql
 ```
+Note if we want to change the environment variables MYSQL_ROOT_PASSWORD or MYSQL_DATABASE or PORT we must include it in src/main/resources/application.properties
+
 
 ### Executing program
 in project path open terminal
