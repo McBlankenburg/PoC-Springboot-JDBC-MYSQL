@@ -1,4 +1,4 @@
-# Proof of Concept - JDBC + Spring Boot
+# Proof of Concept - JDBC - Spring Boot
 
 ## Description
 
