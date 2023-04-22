@@ -1,4 +1,4 @@
-package org.example.user;
+package mblan.poc.jdbc.user;
 
 public class User {
     private Long id;

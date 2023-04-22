@@ -1,4 +1,4 @@
-package org.example;
+package mblan.poc.jdbc;
 
 
 import org.springframework.boot.SpringApplication;

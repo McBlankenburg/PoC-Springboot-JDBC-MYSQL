@@ -1,4 +1,4 @@
-package org.example.user;
+package mblan.poc.jdbc.user;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
