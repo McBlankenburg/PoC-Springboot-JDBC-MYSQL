@@ -13,12 +13,9 @@ Run script for docker container with mysql database
 ```
 database-in-docker.sh
 ```
-
-
-
-
-Note 1. Default username for database mysql is "root"
-Note 2. if you want to change the environment variables MYSQL_ROOT_PASSWORD or MYSQL_DATABASE or PORT you must include it in src/main/resources/application.properties
+Note 1. if you using linux all is ok, but if you using windows you must change it on .cmd and map that script on cmd
+Note 2. Default username for database mysql is "root"
+Note 3. if you want to change the environment variables MYSQL_ROOT_PASSWORD or MYSQL_DATABASE or PORT you must include it in src/main/resources/application.properties
 
 ### Executing program
 in project path open terminal
