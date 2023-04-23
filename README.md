@@ -1,8 +1,8 @@
 # Proof of Concept - JDBC - Spring Boot
 
 ## Description
-
-project created to show how JDBC works in the context of the Spring Boot application connected to the MYSQL database
+Proof of concept of the implementation of the Java Database Connectivity interface
+to show how JDBC works in the context of the Spring Boot application connected to the MYSQL database
 
 ## Getting Started
 
