@@ -8,16 +8,15 @@ project created to show how JDBC works in the context of the Spring Boot applica
 
 ### Database in Docker
 
-Run docker container with mysql database
-```
-docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=mydb -p 3306:3306 -d mysql
-```
-
-or same as up but with Volume
+Run script for docker container with mysql database
 
 ```
-docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=mydb -v /path/to/your/sql/files:/docker-entrypoint-initdb.d -p 3306:3306 -d mysql
+database-in-docker.sh
 ```
+
+
+
+
 Note 1. Default username for database mysql is "root"
 Note 2. if you want to change the environment variables MYSQL_ROOT_PASSWORD or MYSQL_DATABASE or PORT you must include it in src/main/resources/application.properties
 
@@ -25,7 +24,7 @@ Note 2. if you want to change the environment variables MYSQL_ROOT_PASSWORD or M
 in project path open terminal
 
 ```
-mvn clean install
+mvn clean package
 mvn spring-boot:run
 ```
 ### Postman
